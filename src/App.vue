@@ -1,6 +1,13 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
+    <router-link to="/counter">Counter</router-link> |
+    <router-link to="/temperature">Temperature</router-link> |
+    <router-link to="/booking">Booking</router-link> |
+    <router-link to="/timer">Timer</router-link> |
+    <router-link to="/crud">Crud</router-link> |
+    <router-link to="/circle">Circle</router-link> |
+    <router-link to="/cells">Cells</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
